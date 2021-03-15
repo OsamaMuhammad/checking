@@ -1,0 +1,108 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.5eb040c7)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2561,
+            "type": "VEC3",
+            "max": [
+                81.28997802734375,
+                52.1900634765625,
+                22.717060089111329
+            ],
+            "min": [
+                -81.28996276855469,
+                3.1523725986480715,
+                -114.49226379394531
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 14394,
+            "type": "SCALAR",
+            "max": [
+                2560
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 88308,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 30732,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 30732,
+            "byteLength": 57576,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "body",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.7848101258277893,
+                    0.5377165079116821,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.49403560161590578
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "am_body",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 1,
+                    "attributes": {
+                        "POSITION": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "am_body",
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
